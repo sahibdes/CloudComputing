@@ -1,0 +1,5 @@
+References:
+
+http://stackoverflow.com/questions/1602270/ini4j-how-to-get-all-the-key-names-in-a-setting
+
+http://stackoverflow.com/questions/9977221/open-url-in-java-to-get-the-content

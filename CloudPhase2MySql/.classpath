@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/mysql-connector-java-5.1.34/mysql-connector-java-5.1.34-bin.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-build-config-1.0.0.Beta25.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-core-1.2.0.Beta2.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-examples-1.2.0.Beta2.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-jsp-1.0.0.Beta27.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-parser-generator-1.2.0.Beta2.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-servlet-1.2.0.Beta2.jar"/>
+	<classpathentry kind="lib" path="/Users/Sahib/Downloads/jar files/undertow-websockets-jsr-1.2.0.Beta2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

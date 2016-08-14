@@ -1,0 +1,25 @@
+apply plugin: "java"
+
+sourceSets {
+  main {
+    java {}
+  }
+}
+dependencies {
+	compile('com.google.code.gson:gson:1.7.2')
+}
+
+repositories {
+    mavenCentral()
+}
+
+task runMapper(type: JavaExec) {
+	main = "Phase2.sahib.swati"
+	classpath = sourceSets.main.runtimeClasspath
+	}
+	
+task completeJar(type: Jar){
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { zipTree(it) } }
+    with jar
+}
